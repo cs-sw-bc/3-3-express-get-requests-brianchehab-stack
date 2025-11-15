@@ -5,11 +5,22 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "CircuitStream",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
-  }
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-sw-bc/3-3-express-get-requests-brianchehab-stack.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cs-sw-bc/3-3-express-get-requests-brianchehab-stack/issues"
+  },
+  "homepage": "https://github.com/cs-sw-bc/3-3-express-get-requests-brianchehab-stack#readme"
 }
