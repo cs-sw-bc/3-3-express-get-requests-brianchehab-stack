@@ -6,6 +6,8 @@ document.getElementById('fetchButton').addEventListener('click', function() {
             document.getElementById('userName').textContent = `${data.name.title} ${data.name.first} ${data.name.last}`;
             document.getElementById('userEmail').textContent = data.email;
             document.getElementById('userAge').textContent = data.dob.age;
+            document.getElementById('userHealth').textContent = data.health.status;
+
         })
         .catch(error => console.error('Error fetching data: ', error));
 });
